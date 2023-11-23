@@ -26,10 +26,10 @@ import (
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc"
 
+	grpcproxy "github.com/ivanvc/grpc-proxy"
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
-	"go.etcd.io/etcd/server/v3/proxy/grpcproxy"
 	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
 )
 
